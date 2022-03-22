@@ -133,7 +133,6 @@ button:hover{
 #persianrugs{
     width: 80%;
     height: 502px;
-    border: 2px solid white;
     text-align: center;
     margin:auto;
     margin-top: 5%;
@@ -147,7 +146,6 @@ button:hover{
 }
 .rugs{
     width: 12%;
-    border: 2px solid white;
     height: 359px;
     display:inline-block;
     margin-left: 3%;
@@ -171,7 +169,6 @@ button:hover{
     height: 530px;
     text-align: center;
     margin: auto;
-    border: 2px solid white;
     margin-top: 5%;
     margin-bottom: 5%;
 
@@ -184,7 +181,6 @@ button:hover{
 }
 .fpits{
     width: 12%;
-    border: 2px solid white;
     height: 400px;
     display:inline-block;
     margin-left: 3%;
@@ -200,7 +196,6 @@ button:hover{
     height: 530px;
     text-align: center;
     margin: auto;
-    border: 2px solid white;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -212,7 +207,6 @@ button:hover{
 }
 .Chand{
     width: 12%;
-    border: 2px solid white;
     height: 400px;
     display:inline-block;
     margin-left: 3%;
