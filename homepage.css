@@ -1,0 +1,1106 @@
+body{
+    margin :none;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    background-color: black;
+    width: 100%;
+    height:200px;
+}
+#logo{
+    width:30%;
+    height: 200px;
+    position: absolute;
+    float: left;
+}
+#logo>img{
+    height: 160px;
+    margin-top: 0.5%;
+    margin-left: 10%;
+}
+#mainname{
+    float: right;
+    margin-right: 10%;
+    width:40%;
+}
+#storename{
+    color: white;
+    font-size: 60px;
+    width: 100%;
+    margin-top: 4%;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#ownername{
+    color: white;
+    font-size: 30px;
+    width: 39%;
+    position : absolute;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* navigation bar */
+.naviagtion{
+    width: 100%;
+    height: 55px;
+    background-color: #622828;
+    display:inline-block;
+}
+.navbar{
+    color: aliceblue;
+    font-size: 27px;
+    padding: 9px 13px;
+    position : relative;
+    float: left;
+}
+
+/* introduction */
+#intro{
+    width:45%;
+    height:447px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 20%;
+    display:inline-block;
+}
+#details{
+    width: 65%;
+    height:450px;
+    float: left;
+}
+#image{
+    width: 33%;
+    height:450px;
+    float:right;
+}
+#image>img{
+    height:450px;
+    width: 139%;
+}
+#mainhead{
+    color:black;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+#subhead{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#itemshead{
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#descrip{
+    font-style: italic;
+    padding: 7px;
+}
+#secdescrip{
+    font-style: italic;
+    padding: 7px;
+}
+#butshop{
+    margin-top: 3%;
+}
+button{
+    background-color:  black;
+    border-radius: 30px;
+    color:white;
+    font-size: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+button:hover{
+    transform: scale(1.1);
+}
+/* our product (categories) */
+#products{
+    width: 100%;
+    height: 2010px;
+    margin-top: 4%;
+    border: 2px solid black;
+    background-color:black;
+}
+            /* persian rugs */
+#persianrugs{
+    width: 80%;
+    height: 502px;
+    border: 2px solid white;
+    text-align: center;
+    margin:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#rughead{
+    font-size: 30px;
+    text-align:left;
+    color: white;
+    font-family:sans-serif;
+}
+.rugs{
+    width: 12%;
+    border: 2px solid white;
+    height: 359px;
+    display:inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.rugs>img{
+    width: 100%;
+    height: 300px;
+}
+.productname{
+    width: 100%;
+    font-size: 19px;
+    color: white;
+    font-family: sans-serif;
+    text-align:center; 
+    border-radius: 0px;
+}
+        /* fire pits */
+#firepits{
+    width: 80%;
+    height: 530px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+#fphead{
+    font-size: 30px;
+    text-align:left;
+    color: white;
+    font-family: sans-serif;
+}
+.fpits{
+    width: 12%;
+    border: 2px solid white;
+    height: 400px;
+    display:inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.fpits>img{
+    width: 100%;
+    height: 300px;
+}
+        /* Chandeliers */
+#chandeliers{
+    width: 80%;
+    height: 530px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#chandelierhead{
+    font-size: 30px;
+    text-align:left;
+    color: white;
+    font-family: sans-serif;
+}
+.Chand{
+    width: 12%;
+    border: 2px solid white;
+    height: 400px;
+    display:inline-block;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.Chand>img{
+    width: 100%;
+    height: 300px;
+}
+/* footer */
+#footsec{
+    background-color:black;
+    width: 100%;
+    height: 200px;
+}
+.mainline{
+    font-size: 28px;
+    color: white;
+    padding-top: 60px;
+    text-align: center;
+}
+.sociallinks>a>img{
+    width:37px;
+    height:37px;
+    align-items: center;
+    margin-top: 10px;
+}
+.sociallinks{
+    margin-top: 1%;
+    text-align: center;
+    margin: auto;
+}
+.copyright{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 1%;
+}
+
+/* media screen */
+@media screen and (max-width:1590px){
+    .navbar{
+        font-size: 26.75px;
+    }
+    .naviagtion{
+        height: 54.7px;
+    }
+    #logo>img{
+        height: 159px;
+    }
+    #storename{
+        font-size: 59px;
+    }
+    #ownername{
+        font-size:29.5px;
+    }
+    header{
+        height:199px;
+    }
+    #intro{
+        margin-left: 19.9%;
+        width:45.2%;
+    }
+}
+@media screen and (max-width:1576px){
+    #persianrugs{
+        width: 81%;
+    }
+    .rugs{
+        width: 13%;
+    }
+
+}
+@media screen and (max-width:1550px){
+    .navbar{
+        font-size: 26.5px;
+    }
+    .naviagtion{
+        height: 53px;
+    }
+    #logo>img{
+        height: 157px;
+    }
+    #storename{
+        font-size: 58px;
+    }
+    #ownername{
+        font-size:29px;
+    }
+    header{
+        height:197px;
+    }
+    #intro{
+        margin-left: 19.5%;
+        width:45.5%;
+        height:451px;
+    }
+    #persianrugs{
+        width: 82%;
+    }
+
+}
+@media screen and (max-width:1500px){
+    .navbar{
+        font-size: 26.25px;
+    }
+    .naviagtion{
+        height: 52.7px;
+    }
+    #logo>img{
+        height: 154px;
+    }
+    #storename{
+        font-size: 57px;
+    }
+    #ownername{
+        font-size:28.5px;
+    }
+    header{
+        height:195px;
+    }
+    #intro{
+        margin-left: 19%;
+        width:46%;
+        height:452px;
+    }
+    #persianrugs{
+        width: 83%;
+    }
+}
+@media screen and (max-width:1450px){
+    .navbar{
+        font-size: 26.00px;
+    }
+    .naviagtion{
+        height: 52px;
+    }
+    #logo>img{
+        height: 151px;
+    }
+    #storename{
+        font-size: 56px;
+    }
+    #ownername{
+        font-size:28px;
+    }
+    header{
+        height:193px;
+    }
+    #intro{
+        margin-left: 18.5%;
+        width:46.5%;
+        height:453px;
+    }
+    #persianrugs{
+        width: 84%;
+    }
+}
+@media screen and (max-width:1400px){
+    .navbar{
+        font-size: 25.75px;
+    }
+    .naviagtion{
+        height: 51.8px;
+    }
+    #logo>img{
+        height: 147px;
+    }
+    #storename{
+        font-size: 55px;
+    }
+    #ownername{
+        font-size:27.5px;
+    }
+    header{
+        height:190px;
+    }
+    #intro{
+        margin-left: 18%;
+        width:47%;
+        height:450px;
+    }
+    #persianrugs{
+        width: 85%;
+    }
+}
+@media screen and (max-width:1385px){
+    #persianrugs{
+        width: 86%;
+    }
+}
+@media screen and (max-width:1368px){
+    #persianrugs{
+        width: 87%;
+    }
+}
+@media screen and (max-width:1355px){
+    #persianrugs{
+        width: 87.5%;
+    }
+}
+@media screen and (max-width:1350px){
+    .navbar{
+        font-size: 25.35px;
+    }
+    .naviagtion{
+        height: 51px;
+    }
+    #logo>img{
+        height: 144px;
+    }
+    #storename{
+        font-size: 54px;
+    }
+    #ownername{
+        font-size:27px;
+    }
+    header{
+        height:188px;
+    }
+    #intro{
+        margin-left: 17.5%;
+        width:47.5%;
+    }
+    #persianrugs{
+        width: 88%;
+    }
+}
+@media screen and (max-width:1338px){
+    #persianrugs{
+        width: 89%;
+    }
+}
+@media screena and (max-width:1325px){
+    #persianrugs{
+        width: 92%;
+    }
+}
+
+@media screen and (max-width:1320px){
+    #persianrugs{
+        width: 93%;
+    }
+}
+@media screen and (max-width:1310px){
+    #intro{
+        height:457px;
+    }
+}
+@media screen and (max-width:1300px){
+    .navbar{
+        font-size: 24.95px;
+    }
+    .naviagtion{
+        height: 50.5px;
+    }
+    #logo>img{
+        height: 141px;
+    }
+    #storename{
+        font-size: 53px;
+    }
+    #ownername{
+        font-size:26.5px;
+    }
+    header{
+        height:185px;
+    }
+    #intro{
+        margin-left: 17%;
+        width:48%;
+        height:442px;
+    }
+}
+@media screen and (max-width:1285px){
+    #intro{
+        height:459px;
+    }
+}
+@media screen and (max-width:1268px){
+    #persianrugs{
+        width: 94%;
+    }
+}
+@media screen and (max-width:1255px){
+    .rugs{
+        width: 13.5%;
+    }
+}
+@media screen and (max-width:1250px){
+    .navbar{
+        font-size: 24.45px;
+    }
+    .naviagtion{
+        height: 50px;
+    }
+    #logo>img{
+        height: 138px;
+    }
+    #storename{
+        font-size: 52px;
+    }
+    #ownername{
+        font-size:26px;
+    }
+    header{
+        height:182px;
+    }
+    #intro{
+        margin-left: 16.5%;
+        width:48.5%;
+        height:465px;
+    }
+    #persianrugs{
+        width: 95%;
+    }
+}
+@media screen and (max-width:1200px){
+    .navbar{
+        font-size: 24.25px;
+    }
+    .naviagtion{
+        height: 49.5px;
+    }
+    #logo>img{
+        height: 135px;
+    }
+    #storename{
+        font-size: 51px;
+    }
+    header{
+        height:179px;
+    }
+    #intro{
+        margin-left: 16%;
+        width:49%;
+        height:464px;
+    }
+    #persianrugs{
+        width: 96%;
+    }
+}
+@media screen and (max-width:1190px){
+    .rugs{
+        width: 14%;
+    }
+}
+@media screen and (max-width:1150px){
+    .navbar{
+        font-size: 24.05px;
+    }
+    .naviagtion{
+        height: 49px;
+    }
+    #logo>img{
+        height: 132px;
+    }
+    #storename{
+        font-size: 50px;
+    }
+    header{
+        height:176px;
+    }
+    #intro{
+        margin-left: 15.5%;
+        width:49.5%;
+    }
+    #persianrugs{
+        width: 97%;
+    }
+}
+@media screen and (max-width:1135px){
+    .rugs{
+        width: 14.5%;
+    }
+}
+@media screen and (max-width:1115px){
+    #intro{
+        height: 475px;
+    }
+}
+@media screen and (max-width:1100px){
+    .navbar{
+        font-size: 23.65px;
+    }
+    .naviagtion{
+        height: 48.5px;
+    }
+    #logo>img{
+        height: 129px;
+    }
+    #storename{
+        font-size: 49px;
+    }
+    header{
+        height:173px;
+    }
+    #intro{
+        margin-left: 15%;
+        width:50%;
+        height:479px;
+    }
+    #persianrugs{
+        width: 98%;
+    }
+}
+@media screen and (max-width:1090px){
+    .rugs{
+        width: 15%;
+    }
+}
+@media screen and (max-width:1050px){
+    .navbar{
+        font-size: 23.25px;
+    }
+    .naviagtion{
+        height: 48px;
+    }
+    #logo>img{
+        height: 126px;
+    }
+    #storename{
+        font-size: 48px;
+    }
+    header{
+        height:170px;
+    }
+    #intro{
+        margin-left: 14.5%;
+        width:50.5%;
+    }
+    #persianrugs{
+        width: 99%;
+    }
+}
+@media screen and (max-width:1040px){
+    .rugs{
+        width: 16%;
+    }
+}
+@media screen and (max-width:1015px){
+    #intro{
+        height:476px
+    }
+}
+@media screen and (max-width:1012px){
+    #intro{
+        height:547px
+    } 
+}
+@media screen and (max-width:1000px){
+    .navbar{
+        font-size: 22.85px;
+    }
+    .naviagtion{
+        height: 47.5px;
+    }
+    #logo>img{
+        height: 123px;
+    }
+    #storename{
+        font-size: 47px;
+    }
+    header{
+        height:167px;
+    }
+    #intro{
+        margin-left: 14%;
+        width:51%;
+        height:548px;
+    }
+    #persianrugs{
+        width: 100%;
+    }
+}
+@media screen and (max-width:975px){
+    #intro{
+        width:52%;
+        height:551px;
+    }
+}
+@media screen and (max-width:960px){
+    .rugs{
+        width: 18%;
+    }
+    #persianrugs{
+        overflow: scroll;
+    }
+}
+@media screen and (max-width:950px){
+    .navbar{
+        font-size: 22.15px;
+    }
+    .naviagtion{
+        height: 47px;
+    }
+    #logo>img{
+        height: 120px;
+    }
+    #storename{
+        font-size: 46px;
+    }
+    header{
+        height:163px;
+    }
+    #intro{
+        margin-left: 13.5%;
+        width:52.5%;
+        height:548px;
+    }
+}
+@media screen and (max-width:943px){
+    #intro{
+        height:565px;
+    }
+}
+@media screen and (max-width:900px){
+    .navbar{
+        font-size: 21.45px;
+    }
+    .naviagtion{
+        height: 46.5px;
+    }
+    #storename{
+        font-size: 45px;
+    }
+    header{
+        height:160px;
+    }
+    #intro{
+        margin-left: 13%;
+        width:54%;
+        height:567px;
+    }
+}
+@media screen and (max-width:880px){
+    .rugs{
+        width: 19%;
+    }
+}
+@media screen and (max-width:850px){
+    .navbar{
+        font-size: 20.75px;
+    }
+    .naviagtion{
+        height: 46px;
+    }
+    header{
+        height:157px;
+    }
+    #intro{
+        margin-left: 12.5%;
+        width: 54.5%;
+        height: 569px;
+    }
+}
+@media screen and (max-width:835px){
+    .rugs{
+        width: 20%;
+    }
+}
+@media screen and (max-width:810px){
+    #intro{
+        width: 54.5%;
+        height: 570px;
+    }
+}
+@media screen and (max-width:803px){
+    #intro{
+        width: 55.5%;
+        height: 572px;
+    }
+}
+@media screen and (max-width:800px){
+    .navbar{
+        font-size: 20.05px;
+    }
+    .naviagtion{
+        height: 45.5px;
+    }
+    header{
+        height:153px;
+    }
+    #intro{
+        margin-left: 12%;
+        width: 56%;
+        height: 569px;
+    }
+    .rugs{
+        width: 21%;
+    }
+}
+@media screen and (max-width:790px){
+    #intro{
+        margin-left: 11%;
+        width: 57.5%;
+        height: 568px;      
+    }
+    #image>img{
+        width: 140%;
+    }
+}
+@media screen and (max-width:768px){
+    #intro{
+        margin-left:10.5%;
+        width: 59%;
+        height: 570px;
+    }
+    .rugs{
+        width: 22%;
+    }
+}
+@media screen and (max-width:760px){
+    #intro{
+        margin-left:10%;
+        width: 58.5%;
+        height:573px;
+    }
+}
+@media screen and (max-width:755px){
+    #intro{
+        margin-left: 9%;
+        width: 59.5%;
+        height: 577px;
+    }
+}
+@media screen and (max-width:750px){
+    .navbar{
+        font-size: 19.65px;
+    }
+    .naviagtion{
+        height: 45px;
+    }
+    header{
+        height:150px;
+    }
+    #intro{
+        margin-left: 8%;
+        width: 61.5%;
+        height: 569px;
+    }
+    #image>img{
+        width:141%;
+    }
+}
+@media screen and (max-width:730px){
+    .rugs{
+        width: 23%;
+    }
+}
+@media screen and (max-width:721px){
+    #intro{
+        margin-left: 7%;
+        width: 62%;
+    }
+}
+@media screen and (max-width:715px){
+    #intro{
+        width: 63%;
+    }
+}
+@media screen and (max-width:705px){
+    #intro{
+        width: 64%;
+    }
+}
+@media screen and (max-width:700px){
+    .navbar{
+        font-size: 18.95px;
+    }
+    .naviagtion{
+        height: 44.5px;
+    }
+    header{
+        height:147px;
+    }
+    #intro{
+        margin-left: 6.5%;
+        width: 70%;
+        height: 571px;
+    }
+    .rugs{
+        width: 24%;
+    }
+    #image>img{
+        width:142%;
+    }
+}
+@media screen and (max-width:675px){
+    .rugs{
+        width: 25%;
+    }
+}
+@media screen and (max-width:662px){
+    header{
+        height:162px;
+    }
+}
+@media screen and (max-width:650px){
+    .navbar{
+        font-size: 18.25px;
+    }
+    .naviagtion{
+        height: 44px;
+    }
+    header{
+        height:159px;
+    }
+    #intro {
+        margin-left: 4%;
+        width: 73%;
+        height: 577px;
+    }
+    #image>img{
+        width:143%;
+    }
+}
+@media screen and (max-width:645px){
+    .rugs{
+        width: 26%;
+    }
+}
+@media screen and (max-width:625px){
+    #intro{
+        width:73%;
+    }
+    .rugs{
+        width: 27%;
+    }
+}
+@media screen and (max-width:613px){
+    #intro{
+        width:74%;
+    }
+}
+@media screen and (max-width:605px){
+    #intro{
+        width:75%;
+    }
+}
+@media screen and (max-width:600px){
+    .navbar{
+        font-size: 17.55px;
+    }
+    .naviagtion{
+        height: 43.5px;
+    }
+    header{
+        height:159px;
+    }
+    #intro{
+        margin-left: 5%;
+        width:76%;
+        height:575px;
+    }
+    .rugs{
+        width: 28%;
+    }
+    #image>img{
+        width:144%;
+    }
+}
+@media screen and (max-width:590px){
+    #intro{
+        width:77%;
+    }
+}
+@media screen and (max-width:580px){
+    .rugs{
+        width: 30%;
+    }
+}
+@media screen and (max-width:580px){
+    #intro{
+        width:79%;
+    }
+}
+@media screen and (max-width:567px){
+    #intro{
+        width:80%;
+    }
+}
+@media screen and (max-width:561px){
+    #intro{
+        width:81%;
+    }
+}
+@media screen and (max-width:555px){
+    #intro{
+        width:82%;
+    }
+}
+@media screen and (max-width:550px){
+    .navbar{
+        font-size: 15.45px;
+    }
+    .naviagtion{
+        height: 42px;
+    }
+    header{
+        height:160px;
+    }
+    #intro{
+        margin-left: 2%;
+        width:78%;
+    }
+    .rugs{
+        width: 31%;
+    }
+    #image>img{
+        width:145%;
+    }
+}
+@media screen and (max-width:546px){
+    #intro{
+        width:83%;
+    }
+}
+@media screen and (max-width:542px){
+    #intro{
+        width:84%;
+    }
+}
+@media screen and (max-width:536px){
+    #intro{
+        width: 85%;
+    }
+    #image>img{
+        display:none;
+    }
+    #image{
+        width: 0%;
+    }
+}
+@media screen and (max-width:530px){
+    #intro{
+        width: 86%;
+    }
+    .rugs{
+        width: 32%;
+    }
+}
+@media screen and (max-width:524px){
+    #intro{
+        width:87%;
+    }
+}
+@media screen and (max-width:516px){
+    #intro{
+        width: 88%;
+    }
+    .rugs{
+        width: 33%;
+    }
+}
+@media screen and (max-width:513px){
+    #intro{
+        width: 89%;
+    }
+}
+@media screen and (max-width:507px){
+    #intro{
+        width:90%;
+    }
+}
+@media screen and (max-width:502px){
+    #intro{
+        width: 91%;
+    }
+    .rugs{
+        width: 34%;
+    }
+}
+@media screen and (max-width:500px){
+    #details{
+        width: 100%;
+    }
+    #intro{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    #image>img{
+        height: 0px;
+    }
+    #image{
+        height: 0px;
+    }
+    #products{
+        margin-top: -5%;
+    }
+}
