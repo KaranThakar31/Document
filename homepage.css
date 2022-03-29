@@ -166,12 +166,11 @@ button:hover{
         /* fire pits */
 #firepits{
     width: 80%;
-    height: 530px;
+    height: 502px;
     text-align: center;
-    margin: auto;
+    margin:auto;
     margin-top: 5%;
     margin-bottom: 5%;
-
 }
 #fphead{
     font-size: 30px;
@@ -184,7 +183,7 @@ button:hover{
     height: 400px;
     display:inline-block;
     margin-left: 3%;
-    margin-top: 3%;
+    margin-top: 3%;;
 }
 .fpits>img{
     width: 100%;
@@ -192,10 +191,10 @@ button:hover{
 }
         /* Chandeliers */
 #chandeliers{
-    width: 80%;
-    height: 530px;
+     width: 80%;
+    height: 502px;
     text-align: center;
-    margin: auto;
+    margin:auto;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -221,6 +220,7 @@ button:hover{
     background-color:black;
     width: 100%;
     height: 200px;
+    margin-top: -2%;
 }
 .mainline{
     font-size: 28px;
@@ -270,15 +270,32 @@ button:hover{
         margin-left: 19.9%;
         width:45.2%;
     }
+    #footsec{
+        margin-top: -3%;
+    }
 }
 @media screen and (max-width:1576px){
-    #persianrugs{
+    #persianrugs {
+        width: 81%;
+    }
+    #firepits {
+        width: 81%;
+    }
+    #chandeliers{
         width: 81%;
     }
     .rugs{
         width: 13%;
     }
-
+    .fpits {
+        width: 13%;
+    }
+    .Chand{
+        width: 13%;
+    }
+    #footsec{
+        margin-top: -5%;
+    }
 }
 @media screen and (max-width:1550px){
     .navbar{
@@ -307,7 +324,15 @@ button:hover{
     #persianrugs{
         width: 82%;
     }
-
+    #firepits{
+        width: 82%;
+    }
+    #chandeliers{
+        width: 82%;
+    }
+    #footsec{
+        margin-top: -6%;
+    }
 }
 @media screen and (max-width:1500px){
     .navbar{
@@ -335,6 +360,15 @@ button:hover{
     }
     #persianrugs{
         width: 83%;
+    }
+    #firepits{
+        width: 83%;
+    }
+    #chandeliers{
+        width: 83%;
+    }
+    #footsec{
+        margin-top: -7%;
     }
 }
 @media screen and (max-width:1450px){
@@ -364,6 +398,15 @@ button:hover{
     #persianrugs{
         width: 84%;
     }
+    #firepits{
+        width: 84%;
+    }
+    #chandeliers{
+        width: 84%;
+    }
+    #footsec{
+        margin-top: -8%;
+    }
 }
 @media screen and (max-width:1400px){
     .navbar{
@@ -392,9 +435,24 @@ button:hover{
     #persianrugs{
         width: 85%;
     }
+    #firepits{
+        width: 85%;
+    }
+    #chandeliers{
+        width: 85%;
+    }
+    #footsec{
+        margin-top: -9%;
+    }
 }
 @media screen and (max-width:1385px){
     #persianrugs{
+        width: 86%;
+    }
+    #firepits{
+        width: 86%;
+    }
+    #chandeliers{
         width: 86%;
     }
 }
@@ -402,9 +460,24 @@ button:hover{
     #persianrugs{
         width: 87%;
     }
+    #firepits{
+        width: 87%;
+    }
+    #chandeliers{
+        width: 87%;
+    }
+    #footsec{
+        margin-top: -9%;
+    }
 }
 @media screen and (max-width:1355px){
     #persianrugs{
+        width: 87.5%;
+    }
+    #firepits{
+        width: 87.5%;
+    }
+    #chandeliers{
         width: 87.5%;
     }
 }
@@ -434,9 +507,24 @@ button:hover{
     #persianrugs{
         width: 88%;
     }
+    #firepits{
+        width: 88%;
+    }
+    #chandeliers{
+        width: 88%;
+    }
+    #footsec{
+        margin-top: -10%;
+    }
 }
 @media screen and (max-width:1338px){
     #persianrugs{
+        width: 89%;
+    }
+    #firepits{
+        width: 89%;
+    }
+    #chandeliers{
         width: 89%;
     }
 }
@@ -444,16 +532,33 @@ button:hover{
     #persianrugs{
         width: 92%;
     }
+    #firepits{
+        width: 92%;
+    }
+    #chandeliers{
+        width: 92%;
+    }
 }
-
 @media screen and (max-width:1320px){
     #persianrugs{
         width: 93%;
+    }
+    #firepits{
+        width: 93%;
+    }
+    #chandeliers{
+        width: 93%;
+    }
+    #footsec{
+        margin-top: -12%;
     }
 }
 @media screen and (max-width:1310px){
     #intro{
         height:457px;
+    }
+    #footsec{
+        margin-top: -13%;
     }
 }
 @media screen and (max-width:1300px){
@@ -485,15 +590,33 @@ button:hover{
     #intro{
         height:459px;
     }
+    #footsec{
+        margin-top: -12%;
+    }
 }
 @media screen and (max-width:1268px){
     #persianrugs{
+        width: 94%;
+    }
+    #firepits{
+        width: 94%;
+    }
+    #chandeliers{
         width: 94%;
     }
 }
 @media screen and (max-width:1255px){
     .rugs{
         width: 13.5%;
+    }
+    .Chand{
+        width: 13.5%;
+    }
+    .fpits{
+        width: 13.5%;
+    }
+    #footsec{
+        margin-top: -14%;
     }
 }
 @media screen and (max-width:1250px){
@@ -523,6 +646,15 @@ button:hover{
     #persianrugs{
         width: 95%;
     }
+    #firepits{
+        width: 95%;
+    }
+    #chandeliers{
+        width: 95%;
+    }
+    #footsec{
+        margin-top: -15%;
+    }
 }
 @media screen and (max-width:1200px){
     .navbar{
@@ -548,10 +680,28 @@ button:hover{
     #persianrugs{
         width: 96%;
     }
+    #firepits{
+        width: 96%;
+    }
+    #chandeliers{
+        width: 96%;
+    }
+    #footsec{
+        margin-top: -16%;
+    }
 }
 @media screen and (max-width:1190px){
     .rugs{
         width: 14%;
+    }
+    .fpits{
+        width: 14%;
+    }
+    .Chand{
+        width: 14%;
+    }
+    #footsec{
+        margin-top: -17%;
     }
 }
 @media screen and (max-width:1150px){
@@ -577,15 +727,36 @@ button:hover{
     #persianrugs{
         width: 97%;
     }
+    #firepits{
+        width: 97%;
+    }
+    #chandeliers{
+        width: 97%;
+    }
+    #footsec{
+        margin-top: -19%;
+    }
 }
 @media screen and (max-width:1135px){
     .rugs{
         width: 14.5%;
     }
+    .fpits{
+        width: 14.5%;
+    }
+    .Chand{
+        width: 14.5%;
+    }
+    #footsec{
+        margin-top: -20%;
+    }
 }
 @media screen and (max-width:1115px){
     #intro{
         height: 475px;
+    }
+    #footsec{
+        margin-top: -21%;
     }
 }
 @media screen and (max-width:1100px){
@@ -612,10 +783,28 @@ button:hover{
     #persianrugs{
         width: 98%;
     }
+    #firepits{
+        width: 98%;
+    }
+    #chandeliers{
+        width: 98%;
+    }
+    #footsec{
+        margin-top: -22%;
+    }
 }
 @media screen and (max-width:1090px){
     .rugs{
         width: 15%;
+    }
+    .fpits{
+        width: 15%;
+    }
+    .Chand{
+        width: 15%;
+    }
+    #footsec{
+        margin-top: -23%;
     }
 }
 @media screen and (max-width:1050px){
@@ -641,20 +830,44 @@ button:hover{
     #persianrugs{
         width: 99%;
     }
+    #firepits{
+        width: 99%;
+    }
+    #chandeliers{
+        width: 99%;
+    }
+    #footsec{
+        margin-top: -24%;
+    }
 }
 @media screen and (max-width:1040px){
     .rugs{
         width: 16%;
+    }
+    .fpits{
+        width: 16%;
+    }
+    .Chand{
+        width: 16%;
+    }
+    #footsec{
+        margin-top: -25%;
     }
 }
 @media screen and (max-width:1015px){
     #intro{
         height:476px
     }
+    #footsec{
+        margin-top: -26%;
+    }
 }
 @media screen and (max-width:1012px){
     #intro{
         height:547px
+    }
+    #footsec{
+        margin-top: -27%;
     } 
 }
 @media screen and (max-width:1000px){
@@ -681,19 +894,46 @@ button:hover{
     #persianrugs{
         width: 100%;
     }
+    #firepits{
+        width: 100%;
+    }
+    #chandeliers{
+        width: 100%;
+    }
+    #footsec{
+        margin-top: -28%;
+    }
 }
 @media screen and (max-width:975px){
     #intro{
         width:52%;
         height:551px;
     }
+    #footsec{
+        margin-top: -29%;
+    }
 }
 @media screen and (max-width:960px){
     .rugs{
         width: 18%;
     }
+    .fpits{
+        width: 18%;
+    }
+    .Chand{
+        width: 18%;
+    }
     #persianrugs{
         overflow: scroll;
+    }
+    #firepits{
+        overflow: scroll;
+    }
+    #chandeliers{
+        overflow: scroll;
+    }
+    #footsec{
+        margin-top: -30%;
     }
 }
 @media screen and (max-width:950px){
@@ -717,10 +957,16 @@ button:hover{
         width:52.5%;
         height:548px;
     }
+    #footsec{
+        margin-top: -32%;
+    }
 }
 @media screen and (max-width:943px){
     #intro{
         height:565px;
+    }
+    #footsec{
+        margin-top: -33%;
     }
 }
 @media screen and (max-width:900px){
@@ -741,10 +987,22 @@ button:hover{
         width:54%;
         height:567px;
     }
+    #footsec{
+        margin-top: -34%;
+    }
 }
 @media screen and (max-width:880px){
     .rugs{
         width: 19%;
+    }
+    .fpits{
+        width: 19%;
+    }
+    .Chand{
+        width: 19%;
+    }
+    #footsec{
+        margin-top: -36%;
     }
 }
 @media screen and (max-width:850px){
@@ -762,16 +1020,31 @@ button:hover{
         width: 54.5%;
         height: 569px;
     }
+    #footsec{
+        margin-top: -38%;
+    }
 }
 @media screen and (max-width:835px){
     .rugs{
         width: 20%;
+    }
+    .fpits{
+        width: 20%;
+    }
+    .Chand{
+        width: 20%;
+    }
+    #footsec{
+        margin-top: -39%;
     }
 }
 @media screen and (max-width:810px){
     #intro{
         width: 54.5%;
         height: 570px;
+    }
+    #footsec{
+        margin-top: -41%;
     }
 }
 @media screen and (max-width:803px){
@@ -798,6 +1071,15 @@ button:hover{
     .rugs{
         width: 21%;
     }
+    .fpits{
+        width: 21%;
+    }
+    .Chand{
+        width: 21%;
+    }
+    #footsec{
+        margin-top: -43%;
+    }
 }
 @media screen and (max-width:790px){
     #intro{
@@ -817,6 +1099,15 @@ button:hover{
     }
     .rugs{
         width: 22%;
+    }
+    .fpits{
+        width: 22%;
+    }
+    .Chand{
+        width: 22%;
+    }
+    #footsec{
+        margin-top: -44%;
     }
 }
 @media screen and (max-width:760px){
@@ -851,10 +1142,22 @@ button:hover{
     #image>img{
         width:141%;
     }
+    #footsec{
+        margin-top: -45%;
+    }
 }
 @media screen and (max-width:730px){
     .rugs{
         width: 23%;
+    }
+    .fpits{
+        width: 23%;
+    }
+    .Chand{
+        width: 23%;
+    }
+    #footsec{
+        margin-top: -46%;
     }
 }
 @media screen and (max-width:721px){
@@ -866,6 +1169,9 @@ button:hover{
 @media screen and (max-width:715px){
     #intro{
         width: 63%;
+    }
+    #footsec{
+        margin-top: -48%;
     }
 }
 @media screen and (max-width:705px){
@@ -891,18 +1197,39 @@ button:hover{
     .rugs{
         width: 24%;
     }
+    .fpits{
+        width: 24%;
+    }
+    .Chand{
+        width: 24%;
+    }
     #image>img{
         width:142%;
+    }
+    #footsec{
+        margin-top: -49%;
     }
 }
 @media screen and (max-width:675px){
     .rugs{
         width: 25%;
     }
+    .fpits{
+        width: 25%;
+    }
+    .Chand{
+        width: 25%;
+    }
+    #footsec{
+        margin-top: -50%;
+    }
 }
 @media screen and (max-width:662px){
     header{
         height:162px;
+    }
+    #footsec{
+        margin-top: -51%;
     }
 }
 @media screen and (max-width:650px){
@@ -923,10 +1250,22 @@ button:hover{
     #image>img{
         width:143%;
     }
+    #footsec{
+        margin-top: -54%;
+    }
 }
 @media screen and (max-width:645px){
     .rugs{
         width: 26%;
+    }
+    .fpits{
+        width: 26%;
+    }
+    .Chand{
+        width: 26%;
+    }
+    #footsec{
+        margin-top: -55%;
     }
 }
 @media screen and (max-width:625px){
@@ -934,6 +1273,12 @@ button:hover{
         width:73%;
     }
     .rugs{
+        width: 27%;
+    }
+    .fpits{
+        width: 27%;
+    }
+    .Chand{
         width: 27%;
     }
 }
@@ -965,6 +1310,12 @@ button:hover{
     .rugs{
         width: 28%;
     }
+    .fpits{
+        width: 28%;
+    }
+    .Chand{
+        width: 28%;
+    }
     #image>img{
         width:144%;
     }
@@ -976,6 +1327,12 @@ button:hover{
 }
 @media screen and (max-width:580px){
     .rugs{
+        width: 30%;
+    }
+    .fpits{
+        width: 30%;
+    }
+    .Chand{
         width: 30%;
     }
 }
@@ -1016,6 +1373,12 @@ button:hover{
     .rugs{
         width: 31%;
     }
+    .fpits{
+        width: 31%;
+    }
+    .Chand{
+        width: 31%;
+    }
     #image>img{
         width:145%;
     }
@@ -1048,6 +1411,12 @@ button:hover{
     .rugs{
         width: 32%;
     }
+    .Chand{
+        width: 32%;
+    }
+    .fpits{
+        width: 32%;
+    }
 }
 @media screen and (max-width:524px){
     #intro{
@@ -1059,6 +1428,12 @@ button:hover{
         width: 88%;
     }
     .rugs{
+        width: 33%;
+    }
+    .Chand{
+        width: 33%;
+    }
+    .fpits{
         width: 33%;
     }
 }
@@ -1077,6 +1452,12 @@ button:hover{
         width: 91%;
     }
     .rugs{
+        width: 34%;
+    }
+    .Chand{
+        width: 34%;
+    }
+    .fpits{
         width: 34%;
     }
 }
