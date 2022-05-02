@@ -3,22 +3,31 @@
         <title> Kasbah - Store</title>
         <link href="homepage.css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="openCoupon()">
+
+        <div id="coupon">
+            <div class="introhead"> A little something just for you</div>
+            <div class="dealhead"> 40% off </div>
+            <div class="dealdesc"> on entire purchase </div>
+            <button id="btndeal">Apply coupon </button>
+            <button id="closebtn" onclick="closeCoupon()">Nah, I don't like saving money </button>
+        </div>
+        
         <!--  HEADER -->
-        <header> 
+        <header id="headcolor" class="darkhead"> 
             <div id="logo"> <img src="images/kasbah logo.JPG" alt="Logo of Kasbah company"> </div>
             <div id="mainname"> <div id="storename"> Kasbah Store </div>  <div id="ownername"> Karan Thakar </div>
             </div>
         </header>
         
         <!-- Navigation bar -->
-        <div class="naviagtion"> 
+        <div id="navigation" class="navdark">  <!-- navdark to navlight-->
             <a href=""> <span class="navbar">Home</span> </a>
             <a href=""> <span class="navbar">Categories</span> </a>
             <a href=""> <span class="navbar">Collections</span> </a>
             <a href=""> <span class="navbar">Testimonials</span> </a>
             <a href=""> <span class="navbar">Contact Us</span> </a>
-            <button onclick="window.print()"> <img src="images/printer.png" alt="Print This Page"/> </button>
+            <button id="btn-lightdarkmode" class="navdark-btn-dark" onclick="togglemode()"> Toggle Mode</button> <!--navdark-btn-dark to navlight-btn-light-->
         </div>
 
         <!-- introduction -->
@@ -41,9 +50,11 @@
         
 
         <!-- our product (categories)  -->
-        <div id="products">
+        
+        <div id="products" class="darkprod">            <!-- darkpprod to lightprod -->
+            <hr/>
             <div id="persianrugs"> 
-                <div id="rughead"> Persian Rugs </div>
+                <div id="rughead" class="darkrughead"> Persian Rugs </div>  <!-- darkrughead to lightrughead -->
                 <div class="rugs"> 
                     <img src="images of rugs/royal court manufacturer 1.jpg" alt="">
                     <div> <button class="productname"> Persian Royal Court Rug </button></div>  
@@ -67,32 +78,32 @@
             </div>         
             <hr>
             <div id="firepits"> 
-                <div id="fphead"> Fire Pits </div>
+                <div id="fphead" class="darkfphead"> Fire Pits </div> <!-- darkfphead to lightfphead -->
                 <div class="fpits"> 
                     <img src="images of fire pits/fire pit 1.jpg" alt="Bricked Fire Pit">
-                    <div> <button class="productname">Bricked Fire Pit </button></div>
+                    <div> <button class="productname dark-btn-fp">Bricked Fire Pit </button></div>
                 </div>
                 <div class="fpits"> 
                     <img src="images of fire pits/fire pit 2.jpg" alt="Circular Fire Pit">
-                    <div> <button class="productname"> Circular Fire Pit </button></div>
+                    <div> <button class="productname dark-btn-fp"> Circular Fire Pit </button></div>
                 </div>
                 <div class="fpits"> 
                     <img src="images of fire pits/fire pit 3.jpg" alt="Circular Hand Made Semi Natural Fire Pit">
-                    <div> <button class="productname"> Natural Fire Pit </button></div>
+                    <div> <button class="productname dark-btn-fp"> Natural Fire Pit </button></div>
                 </div>
                 <div class="fpits"> 
                     <img src="images of fire pits/fire pit 4.jpg" alt="White Marble Modern Pit">
-                    <div> <button class="productname"> White Modern Pit </button></div>
+                    <div> <button class="productname dark-btn-fp"> White Modern Pit </button></div>
                 </div>
                 <div class="fpits"> 
                     <img src="images of fire pits/fire pit 5.jpg" alt="Brown Marble Coal Classic Pit">
-                    <div> <button class="productname"> Marble Classic Pit </button></div>
+                    <div> <button class="productname dark-btn-fp"> Marble Classic Pit </button></div>
                 </div>
             </div>
             <hr>
             <div id="chandeliers"> 
-                <div id="chandelierhead"> Chandeliers </div>
-                <div class="Chand"> 
+                <div id="chandelierhead" class="darkchead"> Chandeliers </div>
+                <div class="Chand"> <!-- darkchead to lightchead -->
                     <img src="images of chandeliers/beaded chandelier.jpg" alt="Beaded chandelier">
                     <div> <button class="productname"> Bead Chandelier</button> </div>
                 </div>
@@ -130,12 +141,10 @@
                 </div>
             </div>
         </footer>
+
+
+
+        <!-- scripts -->
+        <script src="javascript.js"></script>
     </body>
 </html>
-
-
-<!-- 
-#persianrugs = #firepits = #chandeliers
-.rugs = .fpits = .Chand
-#rughead = #fphead = #chandelierhead
-.rugs>img = .fpits>img = .Chand>img -->

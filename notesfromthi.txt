@@ -1,0 +1,11 @@
+to target class inside a class in css 
+
+.parent .child{
+    properties
+}
+
+
+to target 2 class at same time 
+.child1, .child2{
+    properties
+}

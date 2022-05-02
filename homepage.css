@@ -6,8 +6,13 @@ a{
 }
 
 /* header */
-header{
+.darkhead{
     background-color: black;
+    width: 100%;
+    height:200px;
+}
+.lighthead{
+    background-color: grey;
     width: 100%;
     height:200px;
 }
@@ -44,11 +49,64 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* coupon css */
+#coupon{
+    height: 247px;
+    width: 355px;
+    background-color: rgb(230, 223, 223);
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    right: 40%;
+    z-index: 1000; 
+}
+.introhead{
+    font-size: 20px;
+    margin-top: 9%;
+}
+.dealhead{
+    font-size:30px;
+    color: #622828;
+    padding: 10px;
+}
+.dealdesc{
+    padding: 0px;
+}
+.dealheadpii{
+    font-size: 25px;
+    color: #622828;
+}
+#btndeal{
+    height: 46px;
+    width: 121px;
+    border-radius: 22px;
+    background-color:#622828;
+    display:block;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 15px;
+}
+#closebtn {
+    margin-top: 3%;
+    background-color: rgb(230, 223, 223);
+    color: black;
+    font-size: 10px;
+}
+
 /* navigation bar */
-.naviagtion{
+.navdark{
     width: 100%;
     height: 55px;
     background-color: #622828;
+    display:inline-block;
+}
+.navlight{
+    width: 100%;
+    height: 55px;
+    background-color: #383636;
     display:inline-block;
 }
 .navbar{
@@ -58,18 +116,24 @@ header{
     position : relative;
     float: left;
 }
-.naviagtion  button {
+.navdark .navdark-btn-dark {
     width: 100px;
     height:50px;    
     background:#622828;
     float: right;
     margin-right: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
-.naviagtion  button img {
-    width: 40px;
-    height: 40px;
+.navlight .navlight-btn-light{
+    width: 100px;
+    height:50px;    
+    background:grey;
+    float: right;
+    margin-right: 5px;
+    font-size: 15px;
+    cursor: pointer;
 }
-
 /* introduction */
 #intro{
     width:45%;
@@ -121,24 +185,33 @@ header{
 }
 button{
     background-color:  black;
-    border-radius: 30px;
+    
     color:white;
-    font-size: 23px;
+    font-size: 19px;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 13px;
     padding-right: 13px;
+    cursor:pointer;
 }
 button:hover{
     transform: scale(1.1);
 }
+
 /* our product (categories) */
-#products{
+.darkprod{
     width: 100%;
     height: 2010px;
     margin-top: 4%;
     border: 2px solid black;
     background-color:black;
+}
+.lightprod{
+    width: 100%;
+    height: 2010px;
+    margin-top: 4%;
+    border: 2px solid white;
+    background-color:white;
 }
             /* persian rugs */
 #persianrugs{
@@ -149,27 +222,44 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#rughead{
+.darkrughead{
     font-size: 30px;
     text-align:left;
     color: white;
     font-family:sans-serif;
 }
+.lightrughead{
+    font-size: 30px;
+    text-align:left;
+    color: black;
+    font-family:sans-serif;
+}
+
 .rugs{
     width: 12%;
     height: 359px;
     display:inline-block;
     margin-left: 3%;
     margin-top: 3%;
+    border: 1px solid white;
 }
 .rugs>img{
     width: 100%;
     height: 300px;
+    border-radius: 10px;
 }
-.productname{
+.dark-btn-fp{
     width: 100%;
     font-size: 19px;
     color: white;
+    font-family: sans-serif;
+    text-align:center; 
+    border-radius: 0px;
+}
+.light-btn-fp{
+    width: 100%;
+    font-size: 19px;
+    color: black;
     font-family: sans-serif;
     text-align:center; 
     border-radius: 0px;
@@ -183,22 +273,30 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#fphead{
+.darkfphead{
     font-size: 30px;
     text-align:left;
     color: white;
     font-family: sans-serif;
 }
+.lightfphead{
+    font-size: 30px;
+    text-align:left;
+    color: black;
+    font-family: sans-serif;
+}
 .fpits{
     width: 12%;
-    height: 400px;
+    height: 358px;
     display:inline-block;
     margin-left: 3%;
     margin-top: 3%;;
+    border: 1px solid white; 
 }
 .fpits>img{
     width: 100%;
     height: 300px;
+    border-radius: 10px;
 }
         /* Chandeliers */
 #chandeliers{
@@ -209,22 +307,30 @@ button:hover{
     margin-top: 5%;
     margin-bottom: 5%;
 }
-#chandelierhead{
+.darkchead{
     font-size: 30px;
     text-align:left;
     color: white;
     font-family: sans-serif;
 }
+.lightchead{
+    font-size: 30px;
+    text-align:left;
+    color: black;
+    font-family: sans-serif;
+}
 .Chand{
     width: 12%;
-    height: 400px;
+    height: 380px;
     display:inline-block;
     margin-left: 3%;
     margin-top: 3%;
+    border: 1px solid white;
 }
 .Chand>img{
     width: 100%;
     height: 300px;
+    border-radius: 10px;
 }
 /* footer */
 #footsec{
@@ -262,7 +368,10 @@ button:hover{
     .navbar{
         font-size: 26.75px;
     }
-    .naviagtion{
+    .navdark{
+        height: 54.7px;
+    }
+    .navlight{
         height: 54.7px;
     }
     #logo>img{
@@ -274,7 +383,10 @@ button:hover{
     #ownername{
         font-size:29.5px;
     }
-    header{
+    .darkhead{
+        height:199px;
+    }
+    .lighthead{
         height:199px;
     }
     #intro{
@@ -312,7 +424,10 @@ button:hover{
     .navbar{
         font-size: 26.5px;
     }
-    .naviagtion{
+    .navdark{
+        height: 53px;
+    }
+    .navlight{
         height: 53px;
     }
     #logo>img{
@@ -324,7 +439,10 @@ button:hover{
     #ownername{
         font-size:29px;
     }
-    header{
+    .darkhead{
+        height:197px;
+    }
+    .lighthead{
         height:197px;
     }
     #intro{
@@ -349,7 +467,10 @@ button:hover{
     .navbar{
         font-size: 26.25px;
     }
-    .naviagtion{
+    .navdark{
+        height: 52.7px;
+    }
+    .navlight{
         height: 52.7px;
     }
     #logo>img{
@@ -361,7 +482,10 @@ button:hover{
     #ownername{
         font-size:28.5px;
     }
-    header{
+    .darkhead{
+        height:195px;
+    }
+    .lighthead{
         height:195px;
     }
     #intro{
@@ -386,7 +510,10 @@ button:hover{
     .navbar{
         font-size: 26.00px;
     }
-    .naviagtion{
+    .navdark{
+        height: 52px;
+    }
+    .navlight{
         height: 52px;
     }
     #logo>img{
@@ -398,7 +525,10 @@ button:hover{
     #ownername{
         font-size:28px;
     }
-    header{
+    .darkhead{
+        height:193px;
+    }
+    .lighthead{
         height:193px;
     }
     #intro{
@@ -423,7 +553,10 @@ button:hover{
     .navbar{
         font-size: 25.75px;
     }
-    .naviagtion{
+    .navdark{
+        height: 51.8px;
+    }
+    .navlight{
         height: 51.8px;
     }
     #logo>img{
@@ -435,7 +568,10 @@ button:hover{
     #ownername{
         font-size:27.5px;
     }
-    header{
+    .darkhead{
+        height:190px;
+    }
+    .lighthead{
         height:190px;
     }
     #intro{
@@ -496,7 +632,10 @@ button:hover{
     .navbar{
         font-size: 25.35px;
     }
-    .naviagtion{
+    .navdark{
+        height: 51px;
+    }
+    .navlight{
         height: 51px;
     }
     #logo>img{
@@ -508,7 +647,10 @@ button:hover{
     #ownername{
         font-size:27px;
     }
-    header{
+    .darkhead{
+        height:188px;
+    }
+    .lighthead{
         height:188px;
     }
     #intro{
@@ -576,7 +718,10 @@ button:hover{
     .navbar{
         font-size: 24.95px;
     }
-    .naviagtion{
+    .navdark{
+        height: 50.5px;
+    }
+    .navlight{
         height: 50.5px;
     }
     #logo>img{
@@ -588,7 +733,10 @@ button:hover{
     #ownername{
         font-size:26.5px;
     }
-    header{
+    .darkhead{
+        height:185px;
+    }
+    .lighthead{
         height:185px;
     }
     #intro{
@@ -634,7 +782,10 @@ button:hover{
     .navbar{
         font-size: 24.45px;
     }
-    .naviagtion{
+    .navdark{
+        height: 50px;
+    }
+    .navlight{
         height: 50px;
     }
     #logo>img{
@@ -646,7 +797,10 @@ button:hover{
     #ownername{
         font-size:26px;
     }
-    header{
+    .darkhead{
+        height:182px;
+    }
+    .lighthead{
         height:182px;
     }
     #intro{
@@ -671,7 +825,10 @@ button:hover{
     .navbar{
         font-size: 24.25px;
     }
-    .naviagtion{
+    .navdark{
+        height: 49.5px;
+    }
+    .navlight{
         height: 49.5px;
     }
     #logo>img{
@@ -680,7 +837,10 @@ button:hover{
     #storename{
         font-size: 51px;
     }
-    header{
+    .darkhead{
+        height:179px;
+    }
+    .lighthead{
         height:179px;
     }
     #intro{
@@ -719,7 +879,10 @@ button:hover{
     .navbar{
         font-size: 24.05px;
     }
-    .naviagtion{
+    .navdark{
+        height: 49px;
+    }
+    .navlight{
         height: 49px;
     }
     #logo>img{
@@ -728,7 +891,10 @@ button:hover{
     #storename{
         font-size: 50px;
     }
-    header{
+    .darkhead{
+        height:176px;
+    }
+    .lighthead{
         height:176px;
     }
     #intro{
@@ -761,13 +927,9 @@ button:hover{
     #footsec{
         margin-top: -20%;
     }
-    .naviagtion button{
+    .navdark .navdark-btn-dark, .navlight .navlight-btn-light{
         height: 45px;
         width: 80px;
-    }
-    .naviagtion button img{
-        width: 35px;
-        height:35px;
     }
 }
 @media screen and (max-width:1115px){
@@ -782,7 +944,10 @@ button:hover{
     .navbar{
         font-size: 23.65px;
     }
-    .naviagtion{
+    .navdark{
+        height: 48.5px;
+    }
+    .navlight{
         height: 48.5px;
     }
     #logo>img{
@@ -791,7 +956,10 @@ button:hover{
     #storename{
         font-size: 49px;
     }
-    header{
+    .darkhead{
+        height:173px;
+    }
+    .lighthead{
         height:173px;
     }
     #intro{
@@ -830,7 +998,10 @@ button:hover{
     .navbar{
         font-size: 23.25px;
     }
-    .naviagtion{
+    .navdark{
+        height: 48px;
+    }
+    .navlight{
         height: 48px;
     }
     #logo>img{
@@ -839,7 +1010,10 @@ button:hover{
     #storename{
         font-size: 48px;
     }
-    header{
+    .darkhead{
+        height:170px;
+    }
+    .lighthead{
         height:170px;
     }
     #intro{
@@ -874,13 +1048,9 @@ button:hover{
     }
 }
 @media screen and (max-width:1030px){
-    .naviagtion button {
+    .navdark .navdark-btn-dark, .navlight .navlight-btn-light{
         width: 70px;
         height: 43px;
-    }
-    .naviagtion button img{
-        width: 30px;
-        height:30px;
     }
 }
 @media screen and (max-width:1015px){
@@ -903,7 +1073,10 @@ button:hover{
     .navbar{
         font-size: 22.85px;
     }
-    .naviagtion{
+    .navdark{
+        height: 47.5px;
+    }
+    .navlight{
         height: 47.5px;
     }
     #logo>img{
@@ -912,7 +1085,10 @@ button:hover{
     #storename{
         font-size: 47px;
     }
-    header{
+    .darkhead{
+        height:167px;
+    }
+    .lighthead{
         height:167px;
     }
     #intro{
@@ -969,7 +1145,10 @@ button:hover{
     .navbar{
         font-size: 22.15px;
     }
-    .naviagtion{
+    .navdark{
+        height: 47px;
+    }
+    .navlight{
         height: 47px;
     }
     #logo>img{
@@ -978,7 +1157,10 @@ button:hover{
     #storename{
         font-size: 46px;
     }
-    header{
+    .darkhead{
+        height:163px;
+    }
+    .lighthead{
         height:163px;
     }
     #intro{
@@ -1002,13 +1184,19 @@ button:hover{
     .navbar{
         font-size: 21.45px;
     }
-    .naviagtion{
+    .navdark{
+        height: 46.5px;
+    }
+    .navlight{
         height: 46.5px;
     }
     #storename{
         font-size: 45px;
     }
-    header{
+    .darkhead{
+        height:160px;
+    }
+    .lighthead{
         height:160px;
     }
     #intro{
@@ -1038,10 +1226,16 @@ button:hover{
     .navbar{
         font-size: 20.75px;
     }
-    .naviagtion{
+    .navdark{
         height: 46px;
     }
-    header{
+    .navlight{
+        height: 46px;
+    }
+    .darkhead{
+        height:157px;
+    }
+    .lighthead{
         height:157px;
     }
     #intro{
@@ -1052,13 +1246,9 @@ button:hover{
     #footsec{
         margin-top: -38%;
     }
-    .naviagtion button {
+    .navdark .navdark-btn-dark, .navlight .navlight-btn-light{
         width: 60px;
         height: 42px;
-    }
-    .naviagtion button img{
-        width: 25px;
-        height:25px;
     }
 }
 @media screen and (max-width:835px){
@@ -1094,10 +1284,16 @@ button:hover{
     .navbar{
         font-size: 20.05px;
     }
-    .naviagtion{
+    .navdark{
         height: 45.5px;
     }
-    header{
+    .navlight{
+        height: 45.5px;
+    }
+    .darkhead{
+        height:153px;
+    }
+    .lighthead{
         height:153px;
     }
     #intro{
@@ -1132,6 +1328,7 @@ button:hover{
     #intro{
         margin-left:10.5%;
         width: 59%;
+     
         height: 570px;
     }
     .rugs{
@@ -1165,10 +1362,16 @@ button:hover{
     .navbar{
         font-size: 19.65px;
     }
-    .naviagtion{
+    .navdark{
         height: 45px;
     }
-    header{
+    .navlight{
+        height: 45px;
+    }
+    .darkhead{
+        height:150px;
+    }
+    .lighthead{
         height:150px;
     }
     #intro{
@@ -1220,10 +1423,16 @@ button:hover{
     .navbar{
         font-size: 18.95px;
     }
-    .naviagtion{
+    .navdark{
         height: 44.5px;
     }
-    header{
+    .navlight{
+        height: 44.5px;
+    }
+    .darkhead{
+        height:147px;
+    }
+    .lighthead{
         height:147px;
     }
     #intro{
@@ -1262,7 +1471,10 @@ button:hover{
     }
 }
 @media screen and (max-width:662px){
-    header{
+    .darkhead{
+        height:162px;
+    }
+    .lighthead{
         height:162px;
     }
     #footsec{
@@ -1273,10 +1485,16 @@ button:hover{
     .navbar{
         font-size: 18.25px;
     }
-    .naviagtion{
+    .navdark{
         height: 44px;
     }
-    header{
+    .navlight{
+        height: 44px;
+    }
+    .darkhead{
+        height:159px;
+    }
+    .lighthead{
         height:159px;
     }
     #intro {
@@ -1323,14 +1541,10 @@ button:hover{
     #intro{
         width:74%;
     }
-    .naviagtion button {
+    .navdark .navdark-btn-dark, .navlight .navlight-btn-light{
         width: 50px;
         height: 40px;
         margin-right: 0px;
-    }
-    .naviagtion button img{
-        width: 23px;
-        height:22px;
     }
 }
 @media screen and (max-width:605px){
@@ -1342,10 +1556,16 @@ button:hover{
     .navbar{
         font-size: 17.55px;
     }
-    .naviagtion{
+    .navdark{
         height: 43.5px;
     }
-    header{
+    .navlight{
+        height: 43.5px;
+    }
+    .darkhead{
+        height:159px;
+    }
+    .lighthead{
         height:159px;
     }
     #intro{
@@ -1386,10 +1606,7 @@ button:hover{
     #intro{
         width:79%;
     }
-    .naviagtion button {
-        display: none;
-    }
-    .naviagtion button img{
+    .navdark .navdark-btn-dark, .navlight .navlight-btn-light{
         display: none;
     }
 }
@@ -1412,10 +1629,16 @@ button:hover{
     .navbar{
         font-size: 15.45px;
     }
-    .naviagtion{
+    .navdark{
         height: 42px;
     }
-    header{
+    .navlight{
+        height: 42px;
+    }
+    .darkhead{
+        height:160px;
+    }
+    .lighthead{
         height:160px;
     }
     #intro{
@@ -1527,14 +1750,13 @@ button:hover{
     #image{
         height: 0px;
     }
-    #products{
+    .darkprod, .lightprod{
         margin-top: -5%;
     }
 }
 @media screen and (max-width:490px){
-    .naviagtion{
+    .navdark,.navlight{
         overflow: auto;    
         white-space: wrap;
     }
 }
-
