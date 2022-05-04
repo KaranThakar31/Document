@@ -134,6 +134,14 @@ a{
     font-size: 15px;
     cursor: pointer;
 }
+.navdark #geoloc{
+    width: 100px;
+    height: 55px;
+    /* background-color: white; */
+    display: inline-block;
+    position: absolute;
+    left: 86%;
+}
 /* introduction */
 #intro{
     width:45%;

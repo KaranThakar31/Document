@@ -26,3 +26,27 @@ function togglemode(){
     let chead = document.getElementById('chandelierhead');
     chead.classList.toggle('lightchead');
 }
+
+let x = document.getElementById('geoloc');
+function geolocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(showPosition);
+    }
+    else{
+        x.innerText="";
+    }
+}
+function showPosition(data){
+    let lat = data.coords.latitude;
+    let long = data.coords.longitude;
+    const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
+    console.log(data);
+
+    fetch (url, {method:'GET'})
+    .this((res) => res.json() )
+    .this((data)=>{
+        let cityName = data.city.name;
+        let weather = data.list[0].temp.day;
+        x.innerText = `Weather of ${cityName} is ${weather} °C`
+    })
+}
