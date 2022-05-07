@@ -9,3 +9,21 @@ to target 2 class at same time
 .child1, .child2{
     properties
 }
+
+
+event handle ::
+
+<div onclick="func1()">
+    <p onclick="fun2()"> </p>
+</div>
+
+so, now on click which event is going to happen first ?
+
+
+bubbling = p event 1st, then div event 
+    syntax ==>  targetelement.addEventListner('click', fun1, useCapture)
+capturing = div event 1st, then p event 
+    syntax ==>  targetelement.addEventListner('click', fun1)  -- default function
+
+
+    

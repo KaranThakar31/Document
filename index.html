@@ -3,7 +3,7 @@
         <title> Kasbah - Store</title>
         <link href="homepage.css" rel="stylesheet">
     </head>
-    <body onload="openCoupon()">
+    <body onload="openCoupon(), geolocation()">
 
         <div id="coupon">
             <div class="introhead"> A little something just for you</div>
@@ -27,7 +27,8 @@
             <a href=""> <span class="navbar">Collections</span> </a>
             <a href=""> <span class="navbar">Testimonials</span> </a>
             <a href=""> <span class="navbar">Contact Us</span> </a>
-            <div id="geoloc" onload="geolocation()"> </div>
+            <div id="geoloc"> 
+            </div>
             <button id="btn-lightdarkmode" class="navdark-btn-dark" onclick="togglemode()"> Toggle Mode</button> <!--navdark-btn-dark to navlight-btn-light-->
         </div>
 
@@ -147,5 +148,6 @@
 
         <!-- scripts -->
         <script src="javascript.js"></script>
+        <script src="https://kit.fontawesome.com/7787857589.js" crossorigin="anonymous"></script>
     </body>
 </html>

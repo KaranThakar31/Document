@@ -11,6 +11,7 @@ function togglemode(){
     let navtoggle = document.getElementById('navigation');
     navtoggle.classList.toggle('navlight');
 
+
     let navbtn = document.getElementById('btn-lightdarkmode');
     navbtn.classList.toggle('navlight-btn-light');
 
@@ -27,7 +28,10 @@ function togglemode(){
     chead.classList.toggle('lightchead');
 }
 
+
 let x = document.getElementById('geoloc');
+
+
 function geolocation(){
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition(showPosition);
@@ -42,11 +46,12 @@ function showPosition(data){
     const url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`;
     console.log(data);
 
-    fetch (url, {method:'GET'})
-    .this((res) => res.json() )
-    .this((data)=>{
+    fetch (url, {method:"GET"})
+    .then((res) => res.json() )
+    .then((data)=>{
         let cityName = data.city.name;
         let weather = data.list[0].temp.day;
-        x.innerText = `Weather of ${cityName} is ${weather} °C`
+        
+        x.innerText = `${cityName} ${weather} °C`
     })
 }

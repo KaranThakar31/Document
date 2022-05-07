@@ -137,10 +137,13 @@ a{
 .navdark #geoloc{
     width: 100px;
     height: 55px;
-    /* background-color: white; */
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
     display: inline-block;
     position: absolute;
     left: 86%;
+
 }
 /* introduction */
 #intro{
